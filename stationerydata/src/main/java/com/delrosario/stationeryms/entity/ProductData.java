@@ -10,15 +10,19 @@ import java.util.Date;
 
 @Data
 @Entity
-@Table(name = "stationery_data")
-public class StationeryData {
+@Table(name = "product_data")
+public class ProductData {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     int id;
+
     String name;
     String description;
-    double cost;
-
+    double price;
+    String uom;
+    int availableStocks;
+    String image;
+    String status;
 
     @UpdateTimestamp
     @Temporal(TemporalType.TIMESTAMP)

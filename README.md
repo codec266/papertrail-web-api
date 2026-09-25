@@ -17,7 +17,27 @@ mvn spring-boot:run
 ```
 
 ## API Endpoints
-### Get All Stationery
 ```
-http://localhost:8080/api/stationery/
+http://localhost:8080/
+```
+
+### Products
+
+```
+GET     /api/products
+GET     /api/products/{id}
+```
+
+### Orders
+
+```
+POST    /api/orders
+PUT     /api/orders
+```
+
+### Order Items
+
+```
+POST    /api/order-items
+PUT     /api/order-items
 ```
