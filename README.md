@@ -1,5 +1,5 @@
 # papertrail-web-api
-The Spring Boot backend for the papertrail website
+The Spring Boot backend for the [papertrail](https://github.com/codec266/papertrail-web) website
 ___
 
 ## Development Setup
